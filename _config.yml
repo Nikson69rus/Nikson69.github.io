@@ -1,7 +1,7 @@
 # General
 name: Nikson69
 description: "Live, unix, development etc"
-url: http://localhost:4000
+url: http://nikson69.github.io
 
 markdown: redcarpet
 highlighter: pygments
