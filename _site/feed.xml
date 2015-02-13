@@ -3,8 +3,8 @@
     <channel>
         <title>Nikson69</title>
         <description>Live, unix, development etc</description>
-        <link>http://localhost:4000</link>
-        <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+        <link>http://nikson69.github.io</link>
+        <atom:link href="http://nikson69.github.io/feed.xml" rel="self" type="application/rss+xml" />
         
             <item>
                 <title>Добро пожаловать</title>
@@ -14,8 +14,8 @@
 </description>
                 
                             <pubDate>Wed, 11 Feb 2015 01:37:00 +0300</pubDate>
-                <link>http://localhost:4000/dobro-pozalovat</link>
-                <guid isPermaLink="true">http://localhost:4000/dobro-pozalovat</guid>
+                <link>http://nikson69.github.io/dobro-pozalovat</link>
+                <guid isPermaLink="true">http://nikson69.github.io/dobro-pozalovat</guid>
             </item>
         
     </channel>
