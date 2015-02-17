@@ -7,6 +7,18 @@
         <atom:link href="http://nikson69.github.io/feed.xml" rel="self" type="application/rss+xml" />
         
             <item>
+                <title>Тестирую</title>
+                <dc:creator></dc:creator>
+                
+                    <description>Тестирую добавление новых постов и заливку.
+</description>
+                
+                            <pubDate>Tue, 17 Feb 2015 18:30:00 +0300</pubDate>
+                <link>http://nikson69.github.io/test-post</link>
+                <guid isPermaLink="true">http://nikson69.github.io/test-post</guid>
+            </item>
+        
+            <item>
                 <title>Добро пожаловать</title>
                 <dc:creator></dc:creator>
                 
