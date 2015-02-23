@@ -12,7 +12,7 @@ layout: default
     </article>
 
 
-   <!-- <div class="social module">
+    <div class="social module">
         <ul>
 
             {% capture url %}{{ site.url }}{{ page.url }}{% endcapture %}
@@ -26,6 +26,8 @@ layout: default
                 {% capture tagStr %}{{ tagStr }}{{ tag }},{% endcapture %}
             {% endfor %}
 
+            <li class="vk">
+            <a href="http://vk.com/share.php?url={{ url }}" target="_blank" title="Share on Vkontakte">Vkontakte</a></li>
             <li class="fb">
             <a target="_blank" title="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?t={{ page.title }}&u={{ url }}">Facebook</a></li>
             <li class="tw"><a target="_blank" title="Share on Twitter" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ url }}&via={{ site.twitter }}&hashtags={{ tagStr }}">Twitter</a></li>
@@ -33,7 +35,7 @@ layout: default
         </ul>
     </div>
 
-{% if site.disqus-id %}
+<!-- {% if site.disqus-id %}
 <div class="module color-3">
         <div id="disqus_thread"></div>
         <script type="text/javascript">
@@ -50,7 +52,6 @@ layout: default
         <a href="http://disqus.com" class="dsq-brlink">comments powered by<span class="logo-disqus">Disqus</span></a>
 </div>
 {% endif %}
-
 -->
 
 </div>
