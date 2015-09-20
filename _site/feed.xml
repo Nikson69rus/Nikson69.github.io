@@ -7,6 +7,19 @@
         <atom:link href="http://nikson69.github.io/feed.xml" rel="self" type="application/rss+xml" />
         
             <item>
+                <title>Elementary OS Freya begin</title>
+                <dc:creator></dc:creator>
+                
+                    <description>Начни знакомство с линусом на прекрасном и самом красивом, по моему мнению, дистрибутиву.
+
+Elementary основана на Ubuntu, что гораздо облегчает новому пользователю работу. Она приятно выглядит и напоминает интерфейсом продукцию от Apple. Дистрибут...</description>
+                
+                            <pubDate>Thu, 03 Sep 2015 02:59:00 +0300</pubDate>
+                <link>http://nikson69.github.io/eOS1</link>
+                <guid isPermaLink="true">http://nikson69.github.io/eOS1</guid>
+            </item>
+        
+            <item>
                 <title>Github начало работы в linux</title>
                 <dc:creator></dc:creator>
                 
