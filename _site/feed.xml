@@ -3,8 +3,20 @@
     <channel>
         <title>Nikson69</title>
         <description>Live, unix, development etc</description>
-        <link>http://nikson69.github.io</link>
-        <atom:link href="http://nikson69.github.io/feed.xml" rel="self" type="application/rss+xml" />
+        <link>http://localhost:4000</link>
+        <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+        
+            <item>
+                <title>Jekyll update v3</title>
+                <dc:creator></dc:creator>
+                
+                    <description>
+Для меня неожиданно обновился jekyll и сразу начались неприятности. Из новой версии убрали поддержу redcarpet и pygments ,что используется в моем блоге, а так же теперь требуется ruby 2.0 и выше. Еще он ругался на paginate и конечно собрать его н...</description>
+                
+                            <pubDate>Thu, 03 Sep 2015 00:59:00 +0100</pubDate>
+                <link>http://localhost:4000/jekyll3</link>
+                <guid isPermaLink="true">http://localhost:4000/jekyll3</guid>
+            </item>
         
             <item>
                 <title>Elementary OS Freya begin</title>
@@ -14,9 +26,9 @@
 
 Elementary основана на Ubuntu, что гораздо облегчает новому пользователю работу. Она приятно выглядит и напоминает интерфейсом продукцию от Apple. Дистрибу...</description>
                 
-                            <pubDate>Thu, 03 Sep 2015 02:59:00 +0300</pubDate>
-                <link>http://nikson69.github.io/eOS1</link>
-                <guid isPermaLink="true">http://nikson69.github.io/eOS1</guid>
+                            <pubDate>Thu, 03 Sep 2015 00:59:00 +0100</pubDate>
+                <link>http://localhost:4000/eOS1</link>
+                <guid isPermaLink="true">http://localhost:4000/eOS1</guid>
             </item>
         
             <item>
@@ -25,9 +37,9 @@ Elementary основана на Ubuntu, что гораздо облегчае�
                 
                     <description>Искал, значит искал как же в линуксе удобно заливать файлы на git. Там посмотрел не понятно, тут одни команды и 0 объяснений. Меня очень удивило то, что большая часть информации в русскоязычном сегменте находятся на пользовательских блогах. Вот пр...</description>
                 
-                            <pubDate>Thu, 19 Feb 2015 18:30:00 +0300</pubDate>
-                <link>http://nikson69.github.io/github1</link>
-                <guid isPermaLink="true">http://nikson69.github.io/github1</guid>
+                            <pubDate>Thu, 19 Feb 2015 15:30:00 +0000</pubDate>
+                <link>http://localhost:4000/github1</link>
+                <guid isPermaLink="true">http://localhost:4000/github1</guid>
             </item>
         
             <item>
@@ -37,9 +49,9 @@ Elementary основана на Ubuntu, что гораздо облегчае�
                     <description>Тестирую добавление новых постов, заливку и кнопки соц сетей.
 </description>
                 
-                            <pubDate>Tue, 17 Feb 2015 18:30:00 +0300</pubDate>
-                <link>http://nikson69.github.io/test-post</link>
-                <guid isPermaLink="true">http://nikson69.github.io/test-post</guid>
+                            <pubDate>Tue, 17 Feb 2015 15:30:00 +0000</pubDate>
+                <link>http://localhost:4000/test-post</link>
+                <guid isPermaLink="true">http://localhost:4000/test-post</guid>
             </item>
         
             <item>
@@ -49,9 +61,9 @@ Elementary основана на Ubuntu, что гораздо облегчае�
                     <description>Первая страница блога. 
 </description>
                 
-                            <pubDate>Wed, 11 Feb 2015 01:37:00 +0300</pubDate>
-                <link>http://nikson69.github.io/dobro-pozalovat</link>
-                <guid isPermaLink="true">http://nikson69.github.io/dobro-pozalovat</guid>
+                            <pubDate>Tue, 10 Feb 2015 22:37:00 +0000</pubDate>
+                <link>http://localhost:4000/dobro-pozalovat</link>
+                <guid isPermaLink="true">http://localhost:4000/dobro-pozalovat</guid>
             </item>
         
     </channel>

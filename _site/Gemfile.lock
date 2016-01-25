@@ -1,0 +1,17 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    jekyll-paginate (1.1.0)
+    redcarpet (3.3.4)
+    rouge (1.10.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  jekyll-paginate
+  redcarpet
+  rouge
+
+BUNDLED WITH
+   1.11.2

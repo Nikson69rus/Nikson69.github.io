@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>
-         Nikson69 
+         Jekyll update v3
         
     </title>
 
@@ -65,55 +65,76 @@
     </header>
 
     <div class="main-content">
+
     <article class="module color-3">
-        <h1>Категории</h1>
-  <h4></h4>
-  
-  <li><a href="http://localhost:4000/categories/#site" title="site" rel="3">site (3)</a></li>
-  
-  <li><a href="http://localhost:4000/categories/#internet" title="internet" rel="1">internet (1)</a></li>
-  
-  <li><a href="http://localhost:4000/categories/#OS" title="OS" rel="1">OS (1)</a></li>
-  
+        <h1>Jekyll update v3</h1>
         <hr>
-        <h1>Тэги</h1>
-  <h4></h4>
-  
-    <a href="http://localhost:4000/tags/#site" title="site" rel="3">site</a> &nbsp;
-  
-    <a href="http://localhost:4000/tags/#hello_world" title="hello_world" rel="3">hello_world</a> &nbsp;
-  
-    <a href="http://localhost:4000/tags/#github" title="github" rel="1">github</a> &nbsp;
-  
-    <a href="http://localhost:4000/tags/#Elementary_OS" title="Elementary_OS" rel="1">Elementary_OS</a> &nbsp;
-  
-        <hr>
-        <h1>Архив</h1>
-  <h4></h4>
+        <p><img src="http://jekyllrb.com/img/logo-2x.png"><br>
+Для меня неожиданно обновился jekyll и сразу начались неприятности. Из новой версии убрали поддержу redcarpet и pygments ,что используется в моем блоге, а так же теперь требуется ruby 2.0 и выше. Еще он ругался на paginate и конечно собрать его не удалось. Пришлось потратить около полу часа на поиск нужной информации и все таки удалось вернуть добавлением в фаил Gemfile строк:</p>
+<div class="highlight"><pre><code class="language-" data-lang="">source "https://rubygems.org"
+gem "redcarpet"
+gem 'jekyll-paginate'
+gem "rouge"
+</code></pre></div>
+<p>Так и не понял почему понадобился rouge, но при сборке очень ругался. Так же прописыванием в фаил конфигурации </p>
+<div class="highlight"><pre><code class="language-" data-lang="">gems: [jekyll-paginate]
+</code></pre></div>
+<p>После выполняем команды </p>
+<div class="highlight"><pre><code class="language-" data-lang="">gem install bundler (если требуется)
+bundler
+</code></pre></div>
+<p>И собираем наш блог, через команду:</p>
+<div class="highlight"><pre><code class="language-" data-lang="">jekyll serve --no-watch
+</code></pre></div>
+<p>Все это потребовалось мне для запуска моей модифицированной темы <a href="https://github.com/drvy/minimal-block" target="_blank">minimal-block theme</a>.</p>
 
-  
-  
-  
-  
-  
-  <li id="2015" > <a href="http://localhost:4000/archives/#2015">2015</a></li>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-
+        <p class="top"><small><a href="#top">[Вверх]</a></small></p>
     </article>
+
+
+    <div class="social module">
+        <ul>
+
+            
+
+            
+
+            
+            
+
+            <li class="vk">
+            <a href="http://vk.com/share.php?url=http://localhost:4000/jekyll3" target="_blank" title="Share on Vkontakte">Vkontakte</a></li>
+            <li class="fb">
+            <a target="_blank" title="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?t=Jekyll update v3&u=http://localhost:4000/jekyll3">Facebook</a></li>
+            <li class="tw"><a target="_blank" title="Share on Twitter" href="https://twitter.com/intent/tweet?text=Jekyll update v3&url=http://localhost:4000/jekyll3&via=Nikson69ru&hashtags=site,">Twitter</a></li>
+            <li class="gp"><a target="_blank" title="Share on Google+" href="https://plus.google.com/share?url=http://localhost:4000/jekyll3">Google+</a></li>
+        </ul>
+    </div>
+
+ 
+<div class="module color-3">
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            var disqus_shortname = 'Nikson69';
+            (function () {
+                var dsq = document.createElement('script');
+                dsq.type = 'text/javascript';
+                dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript"> comments.</a></noscript>
+        <a href="http://disqus.com" class="dsq-brlink">comments powered by<span class="logo-disqus">Disqus</span></a>
 </div>
+
+
+
+</div>
+
+
+
+
 
     <div class="footer module">
     <span class="licence">Copyright 2015 &copy; <a href="http://localhost:4000/" target="_blank">Nikson69</a>.</span>
