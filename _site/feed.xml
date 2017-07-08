@@ -7,6 +7,19 @@
         <atom:link href="http://nikson69.github.io/feed.xml" rel="self" type="application/rss+xml" />
         
             <item>
+                <title>Unix в Windows 10</title>
+                <dc:creator></dc:creator>
+                
+                    <description>Наконец в Windows появился полноценный bash. 
+
+Так получилось, что командная строка windows для меня довольно неудобна, а cygwin постоянно ломался (скорей всего по моей вине), поэтому сначала была виртуальная машина, а после linux был установлен в...</description>
+                
+                            <pubDate>Sat, 08 Jul 2017 02:00:00 +0300</pubDate>
+                <link>http://nikson69.github.io/Unix-on-windows</link>
+                <guid isPermaLink="true">http://nikson69.github.io/Unix-on-windows</guid>
+            </item>
+        
+            <item>
                 <title>Jekyll update v3</title>
                 <dc:creator></dc:creator>
                 
