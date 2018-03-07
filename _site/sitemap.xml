@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+    
+    <url>
+      <loc>http://localhost:4000/2017/Unix-on-windows/</loc>
+      
+        <lastmod>2017-07-08T02:00:00+03:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/2016/welcome-to-jekyll/</loc>
+      
+        <lastmod>2016-01-08T18:04:23+03:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/2015/eOS1/</loc>
+      
+        <lastmod>2015-09-03T02:59:00+03:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/2015/github1/</loc>
+      
+        <lastmod>2015-02-19T18:30:00+03:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+  
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/feed.xml</loc>
+      
+        <lastmod>2018-03-07T20:25:18+03:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/humans.txt</loc>
+      
+        <lastmod>2018-03-07T20:25:18+03:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+  
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/css/main.css</loc>
+      
+        <lastmod>2018-03-07T20:25:18+03:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+  
+    
+  
+</urlset>
