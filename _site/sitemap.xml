@@ -18,21 +18,6 @@
   
     
     <url>
-      <loc>http://localhost:4000/2016/welcome-to-jekyll/</loc>
-      
-        <lastmod>2016-01-08T18:04:23+03:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.5</priority>
-      
-    </url>
-    
-  
-    
-    <url>
       <loc>http://localhost:4000/2015/eOS1/</loc>
       
         <lastmod>2015-09-03T02:59:00+03:00</lastmod>
@@ -68,7 +53,7 @@
     <url>
       <loc>http://localhost:4000/feed.xml</loc>
       
-        <lastmod>2018-03-07T20:25:18+03:00</lastmod>
+        <lastmod>2018-03-07T20:43:56+03:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -83,7 +68,7 @@
     <url>
       <loc>http://localhost:4000/humans.txt</loc>
       
-        <lastmod>2018-03-07T20:25:18+03:00</lastmod>
+        <lastmod>2018-03-07T20:43:56+03:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -102,7 +87,7 @@
     <url>
       <loc>http://localhost:4000/css/main.css</loc>
       
-        <lastmod>2018-03-07T20:25:18+03:00</lastmod>
+        <lastmod>2018-03-07T20:43:56+03:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
